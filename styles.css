@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 150px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.increment-button,
+.decrement-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.increment-button {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.decrement-button {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.increment-button:hover,
+.decrement-button:hover {
+    background-color: #27ae60;
+}
